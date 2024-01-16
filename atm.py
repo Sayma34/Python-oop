@@ -62,5 +62,8 @@ class Atm:
             print("Invalid pin")     
             
 obj1 = Atm()
-            
+obj1.create_pin()
+obj1.deposit()
+obj1.withdraw()
+obj1.check_balance()            
         
